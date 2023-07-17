@@ -3,17 +3,17 @@ package stringbasic;
 public class Concatenation {
 public static void main(String[] args) {
 	//1) way to concat using + operator
-	/*
-	 * String s1="Nidhi "; String s2="Gupta"; System.out.println(s1+" "+s2);
-	 * 
-	 * String s="Sachin "+" Tendulkar"; System.out.println(s);//Sachin Tendulkar
-	 * 
-	 * String s3="Sachin got "+(95+1)+" in science"; System.out.println(s3);
-	 */
+	
+	  String s1="Nidhi "; String s2="Gupta"; System.out.println(s1+" "+s2);
+	  
+	  String s="Sachin "+" Tendulkar"; System.out.println(s);//Sachin Tendulkar
+	  
+	  String s3="Sachin got "+(95+1)+" in science"; System.out.println(s3);
+	
 	
 	   
 //2) way using concat() method	  
-	  // System.out.println(s1.concat(s2));
+	   System.out.println(s1.concat(s2));
 	   
  //There are some other possible ways to concatenate Strings in Java.
 	StringBuilder sb1=new StringBuilder("Nidhi ");
