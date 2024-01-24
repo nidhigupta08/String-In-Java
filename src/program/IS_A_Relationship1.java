@@ -15,7 +15,6 @@ class Vehicle3 {
         System.out.println(brand + " is stopping");
     }
 }
-
 class Carr extends Vehicle3 {
     int numberOfDoors;
 
@@ -23,7 +22,6 @@ class Carr extends Vehicle3 {
         super(brand);
         this.numberOfDoors = numberOfDoors;
     }
-
     public void drive() {
         System.out.println(brand + " with " + numberOfDoors + " doors is driving");
     }
